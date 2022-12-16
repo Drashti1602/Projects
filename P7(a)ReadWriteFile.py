@@ -1,0 +1,5 @@
+f = open("Test.txt",'w')
+f.writelines("Hello My Name Is DrashtiPatel....")
+f = open("Test.txt",'r')
+print(f.readline())
+f.close()
